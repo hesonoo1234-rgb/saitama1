@@ -10,7 +10,7 @@
       width: 90%;
       margin: 0 auto;
     }
-/*naknkjc*/
+/*文字の大きさの指定。footer以外*/
     h2 {
       font-size: 22px;
       margin-bottom: 8px;
@@ -22,13 +22,13 @@
       padding: 16px;
       margin-bottom: 20px;
     }
-/*jsigvfiu*/
+/*候補者一人ごとにある枠*/
     .candidate-header {
       display: flex;
       gap: 12px;
       align-items: center;
     }
-    /*bvhje*/
+    /*候補者政党、公約の間にある空間*/
     .名前 {
       font-size: 22px;
       font-weight: bold;
