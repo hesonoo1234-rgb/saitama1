@@ -1,53 +1,54 @@
- body {
+body {
       font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       margin: 0;
       padding: 16px;
       background: #f7f7f7;
       color: #111;line-height: 1.6;
-    }
-    .main-content {
+}
+.main-content {
       max-width: 1000px;
       width: 90%;
       margin: 0 auto;
-    }
+}
 /*文字の大きさの指定。footer以外*/
-    h2 {
+h2 {
       font-size: 22px;
       margin-bottom: 8px;
       font-weight: bold;
-    }
-    .candidate {
+}
+.candidate {
       background: #fff;
       border-radius: 8px;
       padding: 16px;
       margin-bottom: 20px;
-    }
-/*候補者一人ごとにある枠*/
-    .candidate-header {
+}
+/*候補者一人ごとにある枠(中枠）*/
+.candidate-header {
       display: flex;
       gap: 12px;
       align-items: center;
-    }
-    /*候補者政党、公約の間にある空間*/
-    .名前 {
+}
+/*候補者政党、公約の間にある空間（スペース）*/
+.名前 {
       font-size: 22px;
       font-weight: bold;
       font-weight: bold;
-    }
-    .政党 {
+}
+.政党 {
       font-size: 14px;
       color: #555;
-    }
-    h3{
+}
+h3{
       font-size: 20px;
-      margin-bottom: 2px;}
-
-    ul {
+      margin-bottom: 2px;
+}
+ul {
       padding-left: 18px;
       margin-top: 12px;
-    }
-    footer {
+}
+footer {
       font-size: 12px;
       color: #555;
       margin-top: 32px;
-    }
+}
+/*説明*/
